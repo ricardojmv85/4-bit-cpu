@@ -63,6 +63,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <comp loc="(800,350)" name="ALU"/>
   </circuit>
   <circuit name="ALU">
     <a name="circuit" val="ALU"/>
@@ -386,6 +387,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(1110,1290)" name="Controlled Buffer">
       <a name="control" val="left"/>
     </comp>
+    <comp lib="0" loc="(1240,360)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="out 2"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="1" loc="(1110,1470)" name="Controlled Buffer">
       <a name="control" val="left"/>
     </comp>
@@ -416,9 +424,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="5" loc="(1240,360)" name="LED">
-      <a name="label" val="output2"/>
-    </comp>
     <comp lib="0" loc="(890,250)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
@@ -443,6 +448,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(1050,1070)" name="Controlled Inverter">
       <a name="control" val="left"/>
     </comp>
+    <comp lib="0" loc="(1240,330)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="out 1"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="1" loc="(1050,770)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -452,9 +464,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(1120,1160)" name="Controlled Inverter">
       <a name="control" val="left"/>
-    </comp>
-    <comp lib="5" loc="(1240,330)" name="LED">
-      <a name="label" val="output1"/>
     </comp>
     <comp lib="1" loc="(1090,720)" name="Controlled Buffer">
       <a name="control" val="left"/>
@@ -517,12 +526,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="opcode 2"/>
       <a name="labelloc" val="north"/>
     </comp>
+    <comp lib="0" loc="(1240,420)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="out 4"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="1" loc="(1050,670)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="5" loc="(1240,390)" name="LED">
-      <a name="label" val="output3"/>
+    <comp lib="0" loc="(1240,390)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="out 3"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="1" loc="(1070,1100)" name="Controlled Inverter">
       <a name="control" val="left"/>
@@ -532,9 +552,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="opcode 4"/>
       <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="5" loc="(1240,420)" name="LED">
-      <a name="label" val="outpu4"/>
     </comp>
     <comp lib="1" loc="(1050,450)" name="AND Gate">
       <a name="size" val="30"/>
